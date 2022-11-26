@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM WEBSITE</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        font-family: 'Baloo Bhai 2', cursive;
+        color: rgb(119, 248, 14);
+        margin: 0px;
+        padding: 0px;
+        height: 90px;
+        width: 80px;
+        background: url('bg2.jpg');
+    }
+
+    .left {
+        position: absolute;
+        border-radius: 10px;
+        left: 34px;
+        top: 10px;
+        width: 8%;
+        display: inline-block;
+        border: 3px solid rgb(250, 5, 168);
+    }
+
+    .left img {
+        width: 104px;
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 590%;
+        border-radius: 18px;
+
+        top: 90px;
+        margin: 8px 500px;
+        border: 3px solid rgb(245, 6, 125);
+
+    }
+
+    .right {
+        border:2px solid gree;
+        position: absolute;
+        right: 14px;
+        top: 4px;
+        border-radius: 10px;
+        display: inline-block;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 18px;
+    }
+
+    .navbar li a {
+        color: rgb(12, 248, 43);
+        text-decoration: none;
+        padding: 14px 8px;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: blue;
+    }
+
+    .btn {
+
+        margin: 2px 5px;
+        background-color: rgb(70, 163, 240);
+        color: black;
+        padding: 3px 4px;
+        border: 3px solid rgb(248, 4, 4);
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: aqua;
+        color: brown;
+    }
+
+    .container {
+        color: rgb(218, 13, 30);
+        text-align: center;
+        margin-top: 176px;
+        border: 3px solid rgb(231, 7, 100);
+        margin: 2px, 2px;
+        padding: 2px, 2px;
+        width: 590%;
+        border-radius: 18px;
+    }
+
+    .form-group input {
+        background-color: rgb(220, 238, 180);
+        font-family: 'Baloo Bhai 2', cursive;
+        text-align: center;
+        display: block;
+        width: 400px;
+        margin: 5px auto;
+        padding: 1px 0.5px;
+        border: 3px solid rgb(255, 165, 47);
+        font-size: 15px;
+    }
+
+    .container button {
+        display: block;
+        width: 33%;
+        padding: 2px;
+        margin: 2px 90px;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="hllo.jpg" alt="no image">
+            <div> 
+            <b> DAD's GYM</b>   
+            </div>
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active"><b>HOME</b></a></li>
+                <li><a href="#"><b>About US</b></a></li>
+                <li><a href="#"><b>Fitness Calculator</b></a></li>
+                <li><a href="#"><b>Contact Us</b></a></li>
+            </ul>
+
+        </div>
+
+        <div class="right">
+            <div class="right">
+                <button class="btn"><b>Call us </b></button>
+                <button class="btn"><b>Email US</b></button>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <h1><b><i>Join The Best GYM of LUCKNOW</i></b></h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="ENTER YOUR NAME">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="ENTER YOUR AGE">
+                    <div class="form-group">
+                        <input type="text" name="" placeholder="ENTER YOUR Address">
+                        <div class="form-group">
+                            <input type="text" name="" placeholder="ENTER YOUR Mobile No.">
+                        </div>
+                        <buttton class="btn"><b>SUBMIT
+                        </b></buttton>
+        </form>
+    </div>
+</body>
+
+</html>
